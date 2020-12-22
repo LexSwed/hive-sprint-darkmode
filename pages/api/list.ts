@@ -9,7 +9,10 @@ const apps = {
 }
 
 const handler: NextApiHandler = (req, res) => {
-  return res.send(apps)
+  if (req.method === 'GET') {
+    return res.status(200).json(apps)
+  }
+  return res.status(200).send('OK')
 }
 
 export default handler
