@@ -6,6 +6,7 @@ const apps = {
   'hall-of-forms': '15eabe49cac4f541c08715046807da176d0f0f3d',
   'integrations-panel': '28b912d2d41c4332504244460e9b29199d0efcd3',
   'paprikations': '25f16a959745c847f68995513e28876d3fb3fbf6',
+  'shareinguito': '7cbab525bde72876ce356a776f4203f6a0b6e261',
 }
 
 const handler: NextApiHandler = (req, res) => {
