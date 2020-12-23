@@ -1,11 +1,11 @@
 import { NextApiHandler } from 'next'
 
 const apps = {
-  'app-shell': '61f403dbfbc060d0ffb9820f8bfa64ca9117ca16',
+  'app-shell': 'd9a8a7450f96db5a7f9bc3d74f6cd02b95e9969c',
   'chief-app': '33d61fc4bcceee09bae14ca962dfa39ba611d1c7',
-  'hall-of-forms': '557c63c8afeabdbd74d78df56d90fbb322f671a5',
-  'integrations-panel': '02cbc0cdc638c1069930e07263ada08b008d5195',
-  'paprikations': '1987ffd8d0793cbb4fbc266e3a8f80202e99f76d',
+  'hall-of-forms': '15eabe49cac4f541c08715046807da176d0f0f3d',
+  'integrations-panel': '28b912d2d41c4332504244460e9b29199d0efcd3',
+  'paprikations': '25f16a959745c847f68995513e28876d3fb3fbf6',
 }
 
 const handler: NextApiHandler = (req, res) => {
