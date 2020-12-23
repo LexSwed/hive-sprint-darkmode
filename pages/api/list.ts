@@ -1,7 +1,7 @@
 import { NextApiHandler } from 'next'
 
 const apps = {
-  'app-shell': 'd9a8a7450f96db5a7f9bc3d74f6cd02b95e9969c',
+  'app-shell': '8033ee457ace4ebc10f05827c45e27ee315f6455',
   'chief-app': '33d61fc4bcceee09bae14ca962dfa39ba611d1c7',
   'hall-of-forms': '15eabe49cac4f541c08715046807da176d0f0f3d',
   'integrations-panel': '28b912d2d41c4332504244460e9b29199d0efcd3',
