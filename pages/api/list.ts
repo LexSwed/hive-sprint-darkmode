@@ -1,8 +1,8 @@
 import { NextApiHandler } from 'next'
 
 const apps = {
-  'app-shell': '509ad4e3a19cb41f6dc14a9b83c9e4c042a40fea',
-  'chief-app': 'ea9abe2311f4a160048b06d57e38ff20526f40d1',
+  'app-shell': 'new-colors',
+  'chief-app': 'new-colors',
 }
 
 const handler: NextApiHandler = (req, res) => {
